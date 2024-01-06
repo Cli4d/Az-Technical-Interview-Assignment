@@ -1,4 +1,5 @@
 import React from 'react';
+import './Illustration.css';
 
 //import carousel
 import { Carousel } from 'react-responsive-carousel';
@@ -6,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 //import images
 import illustration from '../Assets/images/illustration.png';
-import logo from '../Assets/images/logo.png';
+// import logo from '../Assets/images/logo.png';
 
 
 const Illustration = () => {
@@ -16,7 +17,7 @@ const Illustration = () => {
                 <img src={logo} alt="logo" />
             </div> */}
             <div id='carousel' className='row'>
-                <Carousel showThumbs={false}>
+                <Carousel showThumbs={false} showStatus={false} showArrows={false}>
                     <div>
                         <img src={illustration} alt='illustration'/>
                         <p className='legend'>Manage sales, inventory and other POS</p>
