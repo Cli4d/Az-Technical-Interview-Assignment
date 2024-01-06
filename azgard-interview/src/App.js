@@ -14,7 +14,7 @@ function App() {
           <div className="col">
             <Illustration />
           </div>
-          <div className="col">
+          <div className="col mt-5">
             <SignIn />
           </div>
         </div>
