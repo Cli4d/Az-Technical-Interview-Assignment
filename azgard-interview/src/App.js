@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col">
+          {/* <div className="col-12 col-md-6 d-none d-md-inline">
             <Illustration />
-          </div>
-          <div className="col mt-5">
+          </div> */}
+          <div className="col-12">
             <SignIn />
           </div>
         </div>
