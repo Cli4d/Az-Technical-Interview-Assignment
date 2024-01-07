@@ -34,12 +34,12 @@ function SignIn() {
 
   return (
     <div className='row'>
-      <div className="col-12 col-md-6 d-none d-md-inline bg-light"><Illustration/></div>
-      <div className="col-12 col-md-6 my-auto">
-        <div className="row">
-          <div className="col-11 col-md-9 mx-auto">
+      <div className="col-12 col-md-6 d-none d-md-inline vh-100"><Illustration/></div>
+      <div className="col-12 col-md-6 bg-white vh-100">
+        <div className="row mt-5 mt-md-3">
+          <div className="col-11 col-md-9 mx-auto py-4 py-md-2">
                     {/* Page header */}
-        <div className="page-header row">
+        <div className="page-header row mt-5 mt-md-3">
           <h2 className='fw-bold'>Welcome Back!</h2>
           <p className='text-body-secondary'>Sign in to continue</p>
         </div>
